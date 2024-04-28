@@ -2,7 +2,10 @@
   "name": "@rymcu/auth",
   "version": "0.1.7",
   "description": "Nuxt3 auth module",
-  "repository": "https://github.com/rymcu/auth",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rymcu/auth.git"
+  },
   "license": "MIT",
   "author": {
     "name": "ronger <ronger-x@outlook.com>"
