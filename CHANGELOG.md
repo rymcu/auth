@@ -1,9 +1,10 @@
 ## v0.1.6
 
-[compare changes](https://github.com/rymcu/auth/compare/v0.1.7...v0.1.6)
+[compare changes](https://github.com/rymcu/auth/compare/v0.1.5...v0.1.6)
 
 ### 🩹 Fixes
 
+- add getSession method to refresh auth ([67815ca](https://github.com/rymcu/auth/commit/67815ca))
 - Update readme ([2a37560](https://github.com/rymcu/auth/commit/2a37560))
 
 ### ❤️ Contributors
@@ -11,7 +12,6 @@
 - Ronger ([@ronger-x](http://github.com/ronger-x))
 
 ## v0.1.5
-
 
 [compare changes](https://github.com/roshan-labs/auth/compare/v0.1.4...v0.1.5)
 
