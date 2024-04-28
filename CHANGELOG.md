@@ -1,3 +1,17 @@
+## v0.1.7
+
+[compare changes](https://github.com/rymcu/auth/compare/v0.1.6...v0.1.7)
+
+### 🩹 Fixes
+
+- Update changelog ([7ea5dfc](https://github.com/rymcu/auth/commit/7ea5dfc))
+- Refresh not work ([cec79ba](https://github.com/rymcu/auth/commit/cec79ba))
+- Refresh not work ([73eeba8](https://github.com/rymcu/auth/commit/73eeba8))
+
+### ❤️ Contributors
+
+- Ronger ([@ronger-x](http://github.com/ronger-x))
+
 ## v0.1.6
 
 [compare changes](https://github.com/rymcu/auth/compare/v0.1.5...v0.1.6)
