@@ -23,11 +23,14 @@ const getSession: ReturnType<typeof useLocalAuth>['getSession'] = async (
   let authToken = token.value
 
   if (!authToken && !getSessionOptions.force) {
-    if (refreshToken.value) {
+    return
+  }
+  if (authToken && refreshToken.value && lastRefreshedAt && lastRefreshedAt.value) {
+    const isTokenExpired =
+      new Date().getTime() - lastRefreshedAt.value.getTime() > config.token.maxAgeInSeconds * 1000
+    if (isTokenExpired) {
       await refresh({ refreshToken: refreshToken.value })
       authToken = useAuthState().token.value
-    } else {
-      return
     }
   }
 
