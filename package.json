@@ -1,11 +1,11 @@
 {
-  "name": "@roshan-labs/auth",
-  "version": "0.1.5",
+  "name": "@rymcu/auth",
+  "version": "0.0.1",
   "description": "Nuxt3 auth module",
-  "repository": "https://github.com/roshan-labs/auth",
+  "repository": "https://github.com/rymcu/auth",
   "license": "MIT",
   "author": {
-    "name": "Xiang Gao <gxmari007@gmail.com>"
+    "name": "ronger <ronger-x@outlook.com>"
   },
   "type": "module",
   "exports": {

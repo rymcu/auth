@@ -1,4 +1,4 @@
-export const PACKAGE_NAME = '@roshan-labs/auth'
+export const PACKAGE_NAME = '@rymcu/auth'
 
 export const logger = {
   // eslint-disable-next-line no-console

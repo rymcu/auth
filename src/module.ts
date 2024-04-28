@@ -102,11 +102,11 @@ const defaultProvider: {
 
 const configKey = 'auth'
 
-const PACKAGE_NAME = '@roshan-labs/auth'
+const PACKAGE_NAME = '@rymcu/auth'
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: '@roshan-labs/auth',
+    name: '@rymcu/auth',
     configKey,
   },
   async setup(userOptions, nuxt) {
