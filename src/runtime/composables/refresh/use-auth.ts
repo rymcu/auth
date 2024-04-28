@@ -14,16 +14,12 @@ import { navigateTo, useRuntimeConfig } from '#imports'
 const getSession: ReturnType<typeof useLocalAuth>['getSession'] = async (
   getSessionOptions = {},
 ) => {
-  const config = useTypedConfig(useRuntimeConfig(), 'refresh')
-
-  const { token, refreshToken, lastRefreshedAt } = useAuthState()
-
+  const { token, tokenExpiredTime, refreshToken } = useAuthState()
   if (!token.value && !getSessionOptions.force) {
     return
   }
-  if (token.value && refreshToken.value && lastRefreshedAt && lastRefreshedAt.value) {
-    const isTokenExpired =
-      new Date().getTime() - lastRefreshedAt.value.getTime() > config.token.maxAgeInSeconds * 1000
+  if (token.value && refreshToken.value && tokenExpiredTime && tokenExpiredTime.value) {
+    const isTokenExpired = new Date().getTime() - tokenExpiredTime.value.getTime() > 0
     if (isTokenExpired) {
       await refresh({ refreshToken: refreshToken.value })
       return

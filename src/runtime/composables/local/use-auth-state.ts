@@ -39,6 +39,8 @@ export const useAuthState = (): UseAuthStateReturn => {
 
   const setToken = (value: string | null) => {
     rawToken.value = value
+    commonAuthState.tokenExpiredTime.value =
+      value === null ? null : new Date(new Date().getTime() + config.token.maxAgeInSeconds * 1000)
   }
 
   const clearToken = () => {
