@@ -1,6 +1,14 @@
-## v0.1.7
+## v0.1.6
 
-[compare changes](https://github.com/rymcu/auth/compare/v0.0.2...v0.1.7)
+[compare changes](https://github.com/rymcu/auth/compare/v0.1.7...v0.1.6)
+
+### 🩹 Fixes
+
+- Update readme ([2a37560](https://github.com/rymcu/auth/commit/2a37560))
+
+### ❤️ Contributors
+
+- Ronger ([@ronger-x](http://github.com/ronger-x))
 
 ## v0.1.5
 
