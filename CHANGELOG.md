@@ -1,34 +1,9 @@
-# Changelog
+## v0.1.7
 
-
-## v0.0.2
-
-[compare changes](https://github.com/rymcu/auth/compare/v0.1.4...v0.0.2)
-
-### 🚀 Enhancements
-
-- Add getSession method to refresh auth ([2ac439b](https://github.com/rymcu/auth/commit/2ac439b))
-- Add getSession method to refresh auth ([67815ca](https://github.com/rymcu/auth/commit/67815ca))
-
-### 🩹 Fixes
-
-- NuxtApp 类型错误 ([682a28b](https://github.com/rymcu/auth/commit/682a28b))
-- EndOfLine 修改为 auto ([1dbe0c2](https://github.com/rymcu/auth/commit/1dbe0c2))
-
-### 🏡 Chore
-
-- **release:** V0.1.5 ([7d6c2ae](https://github.com/rymcu/auth/commit/7d6c2ae))
-
-### 🤖 CI
-
-- 去掉 test 部分 ([7ff9f5a](https://github.com/rymcu/auth/commit/7ff9f5a))
-
-### ❤️ Contributors
-
-- Ronger ([@ronger-x](http://github.com/ronger-x))
-- XiangGao <392041299@qq.com>
+[compare changes](https://github.com/rymcu/auth/compare/v0.0.2...v0.1.7)
 
 ## v0.1.5
+
 
 [compare changes](https://github.com/roshan-labs/auth/compare/v0.1.4...v0.1.5)
 
@@ -102,7 +77,6 @@
 - XiangGao <392041299@qq.com>
 
 ## v0.1.1
-
 
 ### 🚀 Enhancements
 
