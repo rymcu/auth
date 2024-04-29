@@ -12,16 +12,30 @@
       <template v-if="status === 'unauthenticated'">
         <h3>Login</h3>
         <form @submit.prevent="login">
-          <input v-model="loginModel.username" type="text" placeholder="Username" />
-          <input v-model="loginModel.password" type="password" placeholder="Password" />
-          <button type="submit">login</button>
+          <input
+            v-model="loginModel.username"
+            type="text"
+            placeholder="Username"
+          >
+          <input
+            v-model="loginModel.password"
+            type="password"
+            placeholder="Password"
+          >
+          <button type="submit">
+            login
+          </button>
         </form>
       </template>
 
       <h3>Actions</h3>
-      <button @click="signOut()">Sign out</button>
-      <br />
-      <button @click="doRefreshToken()">Refresh token</button>
+      <button @click="signOut()">
+        Sign out
+      </button>
+      <br>
+      <button @click="doRefreshToken()">
+        Refresh token
+      </button>
     </div>
   </div>
 </template>

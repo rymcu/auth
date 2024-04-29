@@ -62,10 +62,10 @@
   "devDependencies": {
     "@auth/core": "0.27.0",
     "@nuxt/devtools": "^1.1.5",
+    "@nuxt/eslint-config": "^0.3.6",
     "@nuxt/module-builder": "^0.5.5",
     "@nuxt/schema": "^3.11.2",
     "@nuxt/test-utils": "^3.12.1",
-    "@roshan-labs/eslint-config": "^1.4.1",
     "@types/jsonwebtoken": "^9.0.5",
     "@types/node": "^20.12.7",
     "changelogen": "^0.5.5",

@@ -8,16 +8,24 @@
     </div>
     <div>
       <h3>Actions</h3>
-      <button @click="signIn('github')">sign in github</button>
-      <br />
-      <button @click="signIn(undefined)">sign in</button>
-      <br />
-      <button @click="signIn('no-provider')">no provider</button>
-      <br />
-      <button @click="signOut()">sign out</button>
+      <button @click="signIn('github')">
+        sign in github
+      </button>
+      <br>
+      <button @click="signIn(undefined)">
+        sign in
+      </button>
+      <br>
+      <button @click="signIn('no-provider')">
+        no provider
+      </button>
+      <br>
+      <button @click="signOut()">
+        sign out
+      </button>
     </div>
     {{ sessionData }}
-    <nuxt-page></nuxt-page>
+    <nuxt-page />
   </div>
 </template>
 

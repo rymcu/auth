@@ -3,12 +3,22 @@
     <h1>Login</h1>
     <form @submit.prevent="login">
       <div>
-        <input v-model="username" type="text" placeholder="Username" />
+        <input
+          v-model="username"
+          type="text"
+          placeholder="Username"
+        >
       </div>
       <div>
-        <input v-model="password" type="password" placeholder="Password" />
+        <input
+          v-model="password"
+          type="password"
+          placeholder="Password"
+        >
       </div>
-      <button type="submit">login</button>
+      <button type="submit">
+        login
+      </button>
     </form>
   </div>
 </template>
