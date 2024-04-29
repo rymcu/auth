@@ -1,3 +1,19 @@
+## v0.1.9
+
+[compare changes](https://github.com/rymcu/auth/compare/v0.1.8...v0.1.9)
+
+### 🩹 Fixes
+
+- 修复错误的 token 过期判断机制 ([e6d236b](https://github.com/rymcu/auth/commit/e6d236b))
+
+### 🏡 Chore
+
+- Eslint 配置更新 ([4373551](https://github.com/rymcu/auth/commit/4373551))
+
+### ❤️ Contributors
+
+- Ronger ([@ronger-x](http://github.com/ronger-x))
+
 ## v0.1.8
 
 
