@@ -6,6 +6,7 @@
       <pre>Status: {{ status }}</pre>
       <pre>Data: {{ data }}</pre>
       <pre>Last refresh at: {{ lastRefreshedAt?.toUTCString() ?? 'No date' }}</pre>
+      <pre>token expired time: {{ tokenExpiredTime?.toUTCString() ?? 'No date' }}</pre>
       <pre>Token: {{ token ?? 'No token' }}</pre>
       <pre>Refresh token: {{ refreshToken ?? 'No refresh token' }}</pre>
 
@@ -41,7 +42,17 @@
 </template>
 
 <script lang="ts" setup>
-const { status, data, lastRefreshedAt, token, refreshToken, signIn, signOut, refresh } = useAuth()
+const {
+  status,
+  data,
+  lastRefreshedAt,
+  token,
+  refreshToken,
+  signIn,
+  signOut,
+  refresh,
+  tokenExpiredTime,
+} = useAuth()
 
 const loginModel = ref({
   username: 'admin',
