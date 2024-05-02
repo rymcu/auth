@@ -1,3 +1,22 @@
+## v0.1.10
+
+[compare changes](https://github.com/rymcu/auth/compare/v0.1.8...v0.1.10)
+
+### 🩹 Fixes
+
+- 修复错误的 token 过期判断机制 ([e6d236b](https://github.com/rymcu/auth/commit/e6d236b))
+- Update token expire time feature bug ([fbc6fc5](https://github.com/rymcu/auth/commit/fbc6fc5))
+
+### 🏡 Chore
+
+- Eslint 配置更新 ([4373551](https://github.com/rymcu/auth/commit/4373551))
+- **release:** V0.1.9 ([e00e0e4](https://github.com/rymcu/auth/commit/e00e0e4))
+- Add token expire time ([37f9894](https://github.com/rymcu/auth/commit/37f9894))
+
+### ❤️ Contributors
+
+- Ronger ([@ronger-x](http://github.com/ronger-x))
+
 ## v0.1.9
 
 [compare changes](https://github.com/rymcu/auth/compare/v0.1.8...v0.1.9)
