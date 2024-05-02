@@ -8,7 +8,6 @@ type UseCommonAuthStateReturn<T> = {
   data: Ref<T | null>
   lastRefreshedAt: Ref<Date | null>
   status: ComputedRef<SessionStatus>
-  tokenExpiredTime: Ref<Date | null>
 }
 
 /**
@@ -46,15 +45,10 @@ export const useCommonAuthState = <T = any>(): UseCommonAuthStateReturn<T> => {
     return 'unauthenticated'
   })
 
-  const tokenExpiredTime = useState('auth:token-expired-at', () => {
-    return null
-  })
-
   return {
     data,
     lastRefreshedAt,
     loading,
     status,
-    tokenExpiredTime,
   }
 }

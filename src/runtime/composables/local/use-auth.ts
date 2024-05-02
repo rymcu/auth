@@ -82,6 +82,7 @@ const signIn: SignIn<Credentials, any> = async (credentials, signInOptions = {},
   }
 
   useAuthState().setToken(token)
+  useAuthState().setTokenExpiredTime(new Date(Date.now() + config.token.maxAgeInSeconds * 1000))
   await getSession()
 
   const { redirect = true, callbackUrl, external } = signInOptions
