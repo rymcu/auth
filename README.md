@@ -1,5 +1,7 @@
 # @rymcu/auth
 
+> 推荐使用 [@sidebase/nuxt-auth](https://github.com/sidebase/nuxt-auth)
+
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
